@@ -1,0 +1,32 @@
+.UI {
+    font-family: 'Microsoft YaHei', Courier, monospace;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 8px;
+    box-shadow: 0 0 24px -12px #3f3f3f;
+    padding: 1rem;
+    color: #636363;
+    border: 1px solid #c1c1c1;
+
+    .Title {
+        font-size: 14px;
+        font-weight: bold;
+        cursor: move;
+
+        .Expand {
+            cursor: pointer;
+            margin-left: 1rem;
+            border: none;
+            background-color: transparent;
+            font-weight: bold;
+
+            :focus {
+                outline: none;
+            }
+        }
+    }
+
+    .Main{
+       
+    }
+}
